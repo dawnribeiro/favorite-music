@@ -5,9 +5,17 @@ class BreakingBenjamin extends Component {
     return (
       <div className="info-container">
         <h1>Breaking Benjamin</h1>
-        <p>about</p>
-        <p>albums</p>
+        <img src="../images/BreakingBenjamin.jpg" />
+        <p>Latest Album</p>
+        <p>Ember-April 13, 2018</p>
         <p>members</p>
+        <ul>
+          <li>Benjamin Burnley</li>
+          <li>Aaron Bruch</li>
+          <li>Shaun Foist</li>
+          <li>Jasen Rauch</li>
+          <li>Keith Wallen</li>
+        </ul>
         <Link to="/">Go home</Link>
       </div>
     )
