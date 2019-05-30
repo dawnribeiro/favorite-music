@@ -1,18 +1,17 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import Header from '../components/Header'
 
 class Home extends Component {
   render() {
     return (
-      
-      <Header />
-      
+      <section className="band-container">
+        <Header />
 
-      <div>
-        <link to="/FooFighters">Foo Fighters</link>
-        <link to="/Shinedown">Shinedown</link>
-        <link to='/BreakingBenjamin'>Breaking Benjamin</link>
-      </div>
+        <Link to="/FooFighters">Foo Fighters</Link>
+        <Link to="/Shinedown">Shinedown</Link>
+        <Link to="/BreakingBenjamin">Breaking Benjamin</Link>
+      </section>
     )
   }
 }
