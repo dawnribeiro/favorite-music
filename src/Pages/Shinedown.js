@@ -1,14 +1,18 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import SD from '../images/Shinedown.jpg'
+
 class Shinedown extends Component {
   render() {
     return (
       <div className="info-container">
         <h1>Shinedown</h1>
-        <img src="../images/Shinedown.jpg" />
-        <p>Latest album</p>
-        <p>Attention Attention-released May 4, 2018</p>
-        <p>Current Members</p>
+        <img src={SD} />
+        <h3>Latest Album</h3>
+        <p>
+          <strong>Attention Attention</strong>-released May 4, 2018
+        </p>
+        <h3>Current Members</h3>
         <ul>
           <li>Brent Smith</li>
           <li>Barry Kerch</li>
@@ -16,7 +20,7 @@ class Shinedown extends Component {
           <li>Eric Bass</li>
         </ul>
 
-        <Link to="/">Go home</Link>
+        <Link to="/">Go Home</Link>
       </div>
     )
   }
