@@ -22,7 +22,6 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 150px;
-  height: 100%;
 }
 
 .info-container {
@@ -43,4 +42,8 @@ a {
 ul {
   list-style: none;
   padding-left: 0;
+}
+
+h1 {
+  font-size: 3rem;
 }
